@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Projetos de Power BI</title>
+    <title>Projetos de Excel/Automação</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap -->
@@ -140,13 +140,51 @@
             <p>Para solucionar um problema real, onde varias pessoas precisavam salvar um arquivo em um modelo padrão, para posteriormente importar para outra planilha para análise e também no ERP SAP, desenvolvi uma macro no Excel que permitia visualizar e contar os arquivos na pasta, para salvar o arquivo nomeado de acordo com a contagem realizada. Então o scrip lê os dados que o usuário informa, e salva uma cópia na pasta designada. Isso reduziu a recorrência de erros, além de dar mais agilidade e padronização para o processo. Também implementei a funcionalidade que permitia o usuário enviar o arquivo por e-mail automaticamente. </p>
         </div>
 
-        <a href="files/1_Macro Salvar Arquivos Pasta.xlsm" download class="btn btn-primary">
-                Download do arquivo
-        </a>
+        <div class="text-center">
+            <a href="files/1_Macro Salvar Arquivos Pasta.xlsm" download class="btn btn-primary">
+                    Download do arquivo
+            </a>
+        </div>
+
+
     </div>
 
     <div class="divider"></div>
 
+
+
+    <div class="project-card">
+        <h2 class="project-title">Filtro de Base de Dados</h2>
+
+    <div class="row g-3">
+        <div class="col-md-6">
+            <a href="img/excel_filter.png" target="_blank">
+                <img src="img/excel_filter.png" class="img-fluid rounded shadow">
+            </a>
+        </div>
+
+    </div>
+
+        <div class="project-description">
+            <p>
+                Em um cenário com limitações de uso de ferramentas no Excel, foi necessário aplicar conceitos avançados de fórmulas para implementar regras de negócio e 
+                realizar a filtragem de uma base de dados. Para isso, foram utilizadas funções dinâmicas como FILTER, em conjunto com MAP e LAMBDA, 
+                permitindo avaliar cada registro individualmente conforme critérios previamente definidos.
+
+                A função MAP percorre os valores da coluna aplicando uma função personalizada definida via LAMBDA, enquanto a função OU é utilizada para validar a 
+                existência dos valores em tabelas de referência.
+
+
+        </div>
+
+        <div class="text-center">
+            <a href="files/2_Filtro_DataBase.xlsx" download class="btn btn-primary">
+                Download do arquivo
+            </a>
+        </div>
+    </div>
+
+    <div class="divider"></div>
 
 </div>
 
